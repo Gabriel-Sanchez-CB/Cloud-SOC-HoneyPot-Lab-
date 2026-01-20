@@ -1,8 +1,8 @@
-# SOC HoneyPot Lab with Azure Log Analytics
+# SOC Honey-Pot Lab with Azure Log Analytics
 
 ## Overview
 
-The purpose of this project is to design and deploy a cloud-based security monitoring environment that simulates real-world Security Operations Center (SOC) workflows. The lab focuses on building an end‑to‑end detection pipeline — from log generation and collection to enrichment, analysis, and visualization — using Microsoft Azure and Microsoft Sentinel.
+The purpose of this project is to design and deploy a cloud-based security monitoring environment that simulates real-world Security Operations Center (SOC) workflows. The lab focuses on building an end‑to‑end detection pipeline, from log generation and collection to enrichment, analysis, and visualization, using Microsoft Azure and Microsoft Sentinel.
 
 ## Architecture
 
