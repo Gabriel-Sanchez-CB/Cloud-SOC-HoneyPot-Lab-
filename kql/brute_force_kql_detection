@@ -1,0 +1,5 @@
+SecurityEvent
+| where EventLevelName == "Failure"
+| summarize FailedAttempts = count() by Account, IPAddress
+| where FailedAttempts > 10
+| order by FailedAttempts desc
