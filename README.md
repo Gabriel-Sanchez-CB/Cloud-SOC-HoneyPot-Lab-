@@ -33,6 +33,11 @@ Using a Kusto Query Language (KQL) query, security events were combined with the
 
 ![Intentos de inicio de sesión fallidos en Windows](images/screenshots/Map_Attack.png)
 
+
+## Incident Analysis
+A detailed walkthrough of the detected brute-force activity and recommended mitigations can be found [here](docs/incident_analysis.md).
+
+
 ## Results & Findings
 - Observed real-world brute force attempts
 - Identified attacker source countries via GeoIP
