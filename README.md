@@ -4,6 +4,13 @@
 
 The purpose of this project is to design and deploy a cloud-based security monitoring environment that simulates real-world Security Operations Center (SOC) workflows. The lab focuses on building an end‑to‑end detection pipeline — from log generation and collection to enrichment, analysis, and visualization — using Microsoft Azure and Microsoft Sentinel.
 
+## Architecture
+
+This diagram shows the high-level architecture of the cloud SOC honeypot lab.
+
+![Architecture Diagram](diagrams/architecture.png)
+
+
 To start the lab, an Azure subscription was created and a Windows 10 virtual machine was deployed, configured as an intentionally exposed system. Network Security Group rules were adjusted to allow inbound traffic, and the Windows firewall was disabled, leaving the machine accessible from the Internet. Subsequently, failed login attempts were generated using a non-existent user to produce real security events on the system.
 
 The Windows Event Viewer was then used to inspect the security logs, where events with Event ID 4625 were identified, corresponding to failed authentication attempts. These events are essential for security monitoring, as they allow the detection of suspicious activity such as unauthorized access attempts or brute-force attacks, confirming that the system is generating the telemetry needed for the next stages of the lab.
