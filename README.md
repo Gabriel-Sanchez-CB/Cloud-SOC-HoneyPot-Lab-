@@ -1,4 +1,4 @@
-# SOC Honey-Pot Lab with Azure Log Analytics
+# Security Operation Center - HoneyPot 
 
 ## Overview
 
